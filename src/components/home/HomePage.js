@@ -1,9 +1,17 @@
 import React, {Component} from 'react';
 
+import UpcomingEvents from '../widgets/UpcomingEvents';
+import './Home.css';
+
 class HomePage extends Component {
     render(){
         return(
-        <div>Home Page</div>
+        <div>
+            <div>
+                <UpcomingEvents />
+            </div>
+        </div>
+        
         );
     }
 }
